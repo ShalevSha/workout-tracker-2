@@ -1,3 +1,6 @@
+html {
+  overflow: hidden;
+}
 body {
   background-color: #1d1f21;
   height: 100vh;
@@ -24,7 +27,6 @@ header img {
 }
 .hero-box {
   width: 85%;
-  height: 30%;
   background: rgb(255, 152, 63);
   background: linear-gradient(
     90deg,
@@ -50,17 +52,18 @@ header img {
 }
 .hero-box p span {
   display: block;
+  text-align: end;
 }
 
 .container-slider {
   display: flex;
-  padding: 50px 0 0 50px;
+  padding: 50px 1430px 0 130px;
   width: 100%;
   overflow-x: scroll;
 }
 .container-slider .slide {
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
   background-color: aquamarine;
   margin: 0 50px 0 0;
   border-radius: 19px;
@@ -74,7 +77,11 @@ header img {
 }
 
 .container-slider .one {
-  background: #ee5b45;
+  box-sizing: content-box;
+}
+.container-slider img {
+  width: 125px;
+  border-radius: 19px;
 }
 .container-slider .two {
   background: rgb(34, 193, 195);
@@ -92,6 +99,8 @@ header img {
     rgba(238, 174, 202, 1) 0%,
     rgba(148, 187, 233, 1) 100%
   );
+  /* padding-right: 100px; */
+  margin-right: 200px;
 }
 
 menu {
@@ -107,7 +116,7 @@ menu {
 }
 
 menu img {
-  width: 60px;
+  width: 40px;
 }
 menu button {
   border: #1d1f21 30px solid;
