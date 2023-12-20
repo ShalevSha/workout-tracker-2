@@ -60,6 +60,7 @@ header img {
   padding: 70px 1430px 0 130px;
   width: 100%;
   overflow-x: scroll;
+  overflow-y: hidden;
 }
 .container-slider::-webkit-scrollbar {
   display: none;
