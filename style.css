@@ -57,7 +57,7 @@ header img {
 
 .container-slider {
   display: flex;
-  padding: 70px 1430px 0 130px;
+  padding: 35px 1430px 0 130px;
   width: 100%;
   overflow-x: scroll;
   overflow-y: hidden;
