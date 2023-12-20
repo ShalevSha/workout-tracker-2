@@ -66,8 +66,8 @@ header img {
   display: none;
 }
 .container-slider .slide {
-  width: 125px;
-  height: 125px;
+  width: 150px;
+  height: 150px;
   background-color: aquamarine;
   margin: 0 50px 0 0;
   border-radius: 19px;
