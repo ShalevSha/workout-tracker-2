@@ -83,7 +83,7 @@ header img {
   box-sizing: content-box;
 }
 .container-slider img {
-  width: 125px;
+  width: 150px;
   border-radius: 19px;
 }
 .container-slider .two {
@@ -109,8 +109,7 @@ header img {
 menu {
   display: flex;
   justify-content: space-between;
-  padding: 0;
-  padding-top: 20px;
+  padding: 20px 0 0 0;
   border-top: wheat solid 1px;
   position: absolute;
   bottom: 0px;
@@ -121,6 +120,7 @@ menu {
 
 menu img {
   width: 40px;
+  padding: 0 30px;
 }
 menu button {
   border: #1d1f21 30px solid;
@@ -159,6 +159,7 @@ menu button {
   box-shadow: 1px 2px 23px 1px rgba(255, 152, 63, 0.29);
   -webkit-box-shadow: 1px 2px 23px 1px rgba(255, 152, 63, 0.29);
   -moz-box-shadow: 1px 2px 23px 1px rgba(255, 152, 63, 0.29);
+  border-radius: 10px;
 }
 
 /* WEIGHT PAGE  */
