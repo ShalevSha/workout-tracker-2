@@ -256,7 +256,7 @@ function renderWorkout(wantedWorkout, wantedNum) {
     exerciseContainer.classList.add("exrcise-container");
     exerciseContainer.innerHTML = `
         <div class="input-container">
-          <input type="number" placeholder="433" />
+          <input type="number" placeholder="85" />
           <span>kg</span>
         </div>
         <hr />

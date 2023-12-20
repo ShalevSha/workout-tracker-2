@@ -61,6 +61,9 @@ header img {
   width: 100%;
   overflow-x: scroll;
 }
+.container-slider::-webkit-scrollbar {
+  display: none;
+}
 .container-slider .slide {
   width: 125px;
   height: 125px;
