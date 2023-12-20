@@ -57,7 +57,7 @@ header img {
 
 .container-slider {
   display: flex;
-  padding: 50px 1430px 0 130px;
+  padding: 70px 1430px 0 130px;
   width: 100%;
   overflow-x: scroll;
 }
@@ -119,7 +119,7 @@ menu {
 }
 
 menu img {
-  width: 35px;
+  width: 30px;
   padding: 0 30px;
 }
 menu button {
