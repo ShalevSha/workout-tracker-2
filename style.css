@@ -9,8 +9,7 @@ body {
   color: #f5f5f5;
   position: relative;
   font-family: "Yeseva One", serif;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
 }
 header {
@@ -47,7 +46,7 @@ header img {
   -moz-box-shadow: 1px 2px 23px 1px rgba(255, 152, 63, 0.29);
 }
 .hero-box p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 150%;
   font-family: "Playfair Display", serif;
 }
@@ -110,7 +109,7 @@ menu {
   padding: 0;
   padding-top: 20px;
   border-top: wheat solid 1px;
-  position: sticky;
+  position: absolute;
   bottom: 0px;
   width: 100%;
   background-color: #1d1f21;
@@ -248,12 +247,16 @@ table.weight-table tr:nth-child(even) {
   font-size: 1.3rem;
 }
 
+.content {
+  max-height: 450px; /* Adjust as needed for your design */
+  overflow-y: scroll; /* Enables vertical scrolling */
+  overflow-x: hidden; /* Disables horizontal scrolling */
+}
 .all-exrcises-container {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 20px;
-  overflow-y: scroll;
 }
 
 .exrcise-container {
