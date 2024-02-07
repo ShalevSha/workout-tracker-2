@@ -1,4 +1,4 @@
-function submitDrill(e) {
+function submitDrillUI(e) {
   // Check if the clicked element is the "submit drill" button
   if (e.target.id == "submit-drill-btn") {
     const timeDisplay = document.querySelector(".time");
@@ -49,4 +49,4 @@ function submitDrill(e) {
   }
 }
 
-pageContent.addEventListener("click", submitDrill);
+pageContent.addEventListener("click", submitDrillUI);

@@ -264,6 +264,10 @@ table.weight-table tr:nth-child(even) {
   margin-top: 20px;
 }
 
+form {
+  display: contents;
+}
+
 .exrcise-container {
   width: 90%;
   height: 90px;
